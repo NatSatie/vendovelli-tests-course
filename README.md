@@ -17,4 +17,4 @@ Adicione a tag `--watchAll` em `yarn test` para rodar os testes e ver conforme o
 Qual a diferençe entre `.toEquals` e `.toBe`?
 
 > ao acompanhar a discussão em [What is the difference between 'toBe' and 'toEqual' in Jest?](https://stackoverflow.com/questions/45195025/what-is-the-difference-between-tobe-and-toequal-in-jest)
-Deparamos que `toBe` serve para fazer um teste de strictEquality, assim como `===`. enquanto o toEqual serve para ver deep quality e usa o método `Object.is`. Porém, é algo para ver com maiores detalhes depois. Para complementar, no jest tem [toStrictEqual](https://jestjs.io/docs/expect#tostrictequalvalue).
+> Deparamos que `toBe` serve para fazer um teste de strictEquality, assim como `===`. enquanto o toEqual serve para ver deep quality e usa o método `Object.is`. Porém, é algo para ver com maiores detalhes depois. Para complementar, no jest tem [toStrictEqual](https://jestjs.io/docs/expect#tostrictequalvalue).
